@@ -22,3 +22,4 @@
 ## 参考借鉴
 - 成绩查询界面统计图表[wx-charts](https://github.com/xiaolin3303/wx-charts)
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
+## 配置完成
