@@ -1,0 +1,79 @@
+<!--pages/index3/index3.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" circular
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+  style="height:200px">
+    <swiper-item>
+      <image src="../../images/444.jpeg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/555.png" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/666.jpeg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/888.jpg" class="slide-image"/>
+    </swiper-item>
+</swiper>
+<view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+            <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" bindblur="hideInput" />
+            <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                <icon type="clear" size="14"></icon>
+            </view>
+        </view>
+        <!--未输入时候显示-->
+        <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+            <navigator url="../search/search" open-type="navigate">
+            <icon class="weui-icon-search" type="search" size="12"></icon>
+        </navigator>
+            <view class="weui-search-bar__text">
+      
+</view>
+        </label>
+    </view>
+        <!--取消按钮-->
+        <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+</view>
+<view class='grid'>
+    <view class='itemgrids'>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/xueshu.png'></image>
+            <view class='itemgrid_label'>学术新闻</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/gonggaoguanli.png'></image>
+            <view class='itemgrid_label'>通知公告</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/xinwen.png'></image>
+            <view class='itemgrid_label'>工大新闻</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/meiti.png'></image>
+            <view class='itemgrid_label'>媒体工大</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/icon-test.png'></image>
+            <view class='itemgrid_label'>学术讲座</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/xinwenjujiao.png'></image>
+            <view class='itemgrid_label'>要闻聚焦</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/xuexiao.png'></image>
+            <view class='itemgrid_label'>学校主页</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/guizhangzhidu.png'></image>
+            <view class='itemgrid_label'>规章制度</view>
+        </navigator>
+        <navigator url="../1/1" class='itemgrid' hovor-class='itemgrid_active'>
+            <image class='itemgrid_icon' src='../../images/xuesheng.png'></image>
+            <view class='itemgrid_label'>学生服务</view>
+        </navigator>
+    </view>
+</view>

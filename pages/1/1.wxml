@@ -1,0 +1,8 @@
+<!--pages/1/1.wxml-->
+<view class="container">
+              <text>请点击下方</text>
+  
+                <!-- <text bindtap="resetPassword" style="color:#8E54EC;">点击这里，重置教务系统密码。重置后密码为身份证号码后6位，请及时修改</text> -->
+                <text bindtap="copyResetURL" style="color:#8E54EC;">点击这里，复制粘贴到浏览器打开
+                </text>
+</view>

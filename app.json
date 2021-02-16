@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index3/index3",
+    "pages/features/features",
+    "pages/1/1",
+    "pages/search/search",
+    "pages/features/about",
+    "pages/score/score",
+    "pages/calendar/calendar",
+    "pages/error/queryerror"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "内蒙古工业大学",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#7acfa6"
+  },
+  "tabBar": {
+    "selectedColor": "#4A6141",
+    "color": "#333",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index3/index3",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index@active.png"
+      },
+      {
+        "pagePath": "pages/features/features",
+        "text": "更多",
+        "iconPath": "images/more.png",
+        "selectedIconPath": "images/holiday.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+<!--pages/2/2.wxml-->
+<view >
+  <image src="/images/999.jpg"></image>
+          <view class="page__title">校历</view>
+          
+            <text> \r\n受疫情等外部不可抗力因素印象，目前校历为暂行版，学校随时可能更新或根据实际情况变更，本校历仅供参考。 
+            </text>
+            <button open-type="share" class="login-btn">
+              <text>分享校历给同学</text>
+            </button>
+            </view>
