@@ -1,25 +1,12 @@
 
-# snowclassmates
+# 云开发 quickstart
 
-小雪同学教务处问答机器人 微信小程序
+这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
 
-## 页面路径说明
+- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
+- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
+- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
 
-```
-"pages": [
-  "pages/index3/index3",//首页
-    "pages/features/features",//“更多”界面
-    "pages/1/1",//转载地址
-    "pages/search/search",//搜索
-     "pages/features/about",//关于
-     "pages/score/score",//成绩查询
-    "pages/calendar/calendar",//校历
-    "pages/error/queryerror",//查询失败或错误的异常页面
-    
-  ],
-```
+## 参考文档
 
-## 参考借鉴
-- 成绩查询界面统计图表[wx-charts](https://github.com/xiaolin3303/wx-charts)
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-## 配置完成
