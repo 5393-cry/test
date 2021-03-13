@@ -23,7 +23,7 @@ Page({
   },
   copyResetURL:function(){
     wx.setClipboardData({
-      data: 'http://jwch.imut.edu.cn/jwzx/index.do/',
+      data: 'http://jwch.imut.edu.cn/jwzx/index.do',
       success(res) {
         wx.showToast({
           title: '内容已复制，请粘贴到浏览器访问',
